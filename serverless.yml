@@ -1,0 +1,17 @@
+org: vamshidhar
+app: sihikshaya
+service: test1
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.8
+
+functions:
+  hello:
+    handler: handler.hello
+
+plugins:
+  - serverless-python-requirements
+configValidationMode: error

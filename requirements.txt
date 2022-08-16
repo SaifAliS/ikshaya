@@ -1,0 +1,3 @@
+pickle-mixin
+face-recognition
+opencv-python
